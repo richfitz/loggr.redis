@@ -25,7 +25,6 @@ install:
 
 script:
   - ./travis-tool.sh run_tests
-  - ./extra/revdep.R
 
 after_failure:
   - ./travis-tool.sh dump_logs
