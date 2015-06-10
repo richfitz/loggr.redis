@@ -17,3 +17,16 @@ jsonlite::fromJSON(con$LINDEX("mykey", -1))
 # $time
 # [1] "2015-06-10 18:39:03"
 ```
+
+## Installation
+
+Requires two (currently non-CRAN packages)
+
+- [`loggr`](https://github.com/smbache/loggr)
+- [`RedisAPI`](https://github.com/ropensci/RedisAPI)
+
+Install with
+
+```r
+devtools::install_github(c("smbache/loggr", "ropensci/RedisAPI"))
+```

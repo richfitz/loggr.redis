@@ -20,6 +20,8 @@ install:
   - ./travis-tool.sh install_aptget libhiredis-dev
   - ./travis-tool.sh install_deps
   - ./travis-tool.sh install_r RcppRedis
+  - ./travis-tool.sh install_github ropensci/RedisAPI
+  - ./travis-tool.sh install_github smbache/loggr
 
 script:
   - ./travis-tool.sh run_tests
